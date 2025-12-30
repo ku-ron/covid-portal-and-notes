@@ -1,5 +1,8 @@
-# 気になったツイート収集
+---
+layout: default
+title: "気になったツイート収集"
+---
 
-<p><blockquote class="twitter-tweet">
+<blockquote class="twitter-tweet">
   <a href="https://twitter.com/koumonka_doctor/status/2005886062233555395"></a>
-</blockquote></p>
+</blockquote>
