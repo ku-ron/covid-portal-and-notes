@@ -1,8 +1,3 @@
----
-layout: default
-title: "気になったツイート収集"
----
+# 気になったツイート収集
 
-<blockquote class="twitter-tweet">
-  <a href="https://twitter.com/koumonka_doctor/status/2005886062233555395"></a>
-</blockquote>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">すんごい金額。これだけもらってたら製薬会社に都合の悪い発言はできないな。<a href="https://t.co/qy18EbHYlL">https://t.co/qy18EbHYlL</a></p>&mdash; 肛門科女医　みのり先生 (@koumonka_doctor) <a href="https://twitter.com/koumonka_doctor/status/2005886062233555395?ref_src=twsrc%5Etfw">December 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
