@@ -4,10 +4,9 @@ title: "未整理の自分のツイート"
 
 # ワクチン関連
 
+---
 ## ワクチンの名前を分けて呼び分ける提案
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今我々がワクチンと呼んでいるものに以下の二つがあるとして、<br><br>1.感染拡大を防ぐ効果があるもの(他者にうつす可能性を減らすことが証明されたもの)<br>2.感染拡大を防ぐ効果が証明されていないもの<br><br>1のみ「ワクチン」と呼んで、2には別の名前を付けてそれで呼ぶことを必須にするのはどうでしょうか。 <a href="https://t.co/a2OqK0HhRY">https://t.co/a2OqK0HhRY</a></p>&mdash; 岡田龍太郎／クーロン (@suck_a_sage) <a href="https://twitter.com/suck_a_sage/status/1997109090796163543?ref_src=twsrc%5Etfw">December 6, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
----
 
 ```tweet
 インフルエンザや新型コロナのワクチンの認可されたときの薬剤としての説明には、「他者への感染（伝播）を防ぐ／下げる」効果は、正式な効能・効果としては記載されていないわけですよね。
@@ -32,8 +31,6 @@ title: "未整理の自分のツイート"
 ---
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">治験時に感染拡大防止効果をチェックするのは結構難しそうですよね。できる場合もあるでしょうけど。現実的には、認可されてすぐは「試験中ワクチン」、みたいな感じになって、何年間かの実績によって「公衆衛生ワクチン」に昇格できるとかそういうのもありかなと思いました。 <a href="https://t.co/emtCR10Knj">https://t.co/emtCR10Knj</a></p>&mdash; 岡田龍太郎／クーロン (@suck_a_sage) <a href="https://twitter.com/suck_a_sage/status/1997275471227339005?ref_src=twsrc%5Etfw">December 6, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
----
 
 ```tweet
 治験時に感染拡大防止効果をチェックするのは結構難しそうですよね。できる場合もあるでしょうけど。現実的には、認可されてすぐは「試験中ワクチン」、みたいな感じになって、何年間かの実績によって「公衆衛生ワクチン」に昇格できるとかそういうのもありかなと思いました。
@@ -70,8 +67,49 @@ ChatGPTとの会話のリンクを張っておきます。実は名前を分け�
 ```
 [ChatGTPとの会話リンク](https://t.co/EEHsGHl2mp)
 
+---
+## ワクチンが世に出るまでの審査について
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ファイザーのコロナmRNAワクチン(コミナティ筋注)についての公式資料、今回初めて見てみました。<br><br>以下、2つの重要な資料があるようです。<br><br>医薬品インタビューフォーム(製薬会社によるレビュー)<a href="https://t.co/LGfD9gGkTx">https://t.co/LGfD9gGkTx</a><br><br>審議結果報告書(承認する厚労省(行政側)のレビュー)<a href="https://t.co/bGfmn7nacj">https://t.co/bGfmn7nacj</a></p>&mdash; 岡田龍太郎／クーロン (@suck_a_sage) <a href="https://twitter.com/suck_a_sage/status/1973763720821231768?ref_src=twsrc%5Etfw">October 2, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+```tweet
+ファイザーのコロナmRNAワクチン(コミナティ筋注)についての公式資料、今回初めて見てみました。
+
+以下、2つの重要な資料があるようです。
+
+医薬品インタビューフォーム(製薬会社によるレビュー)
+https://pins.japic.or.jp/pdf/medical_interview/IF00009715.pdf
+
+審議結果報告書(承認する厚労省(行政側)のレビュー)
+https://mhlw.go.jp/content/10601000/000739089.pdf
+```
+
+```tweet
+昨晩、「ちゃんと感染予防効果があるって報告されたから政府はそれを言ってるんですよ」と言ってこれらの資料を教えてもらったので、見てみて、「感染予防効果は書いてないように思いますが」…と返したところ、書いてなかったみたいです(どういうことだよ)。
+```
+
+```tweet
+つまり「製薬会社も厚労省も正式な書類の上では感染予防効果はあるとは認めていない」のですが、
+
+それを踏まえて先程RTしたような
+・ファイザー広報は感染予防効果があるかのように誤認させるツイートをしていた
+```
+
+```tweet
+・政府側は感染予防効果は外国の状況を参考にしてあると仮定していたが、時間経過でそれがないと分かっても訂正しなかった
+
+という話の意味が読み取れるようになるわけですね。(なるのか？)
+```
+
+
+---
+
+---
+
 
 # ウイルス研究所起源関連
+
+---
+
 ## 新型コロナウイルスの株の命名法
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">新型コロナウイルスの株の命名がよく分からなかったのでChatGPTに聞いてまとめてもらいました。<br><br>①<br>新型コロナ（SARS-CoV-2）の「株名」が分かりにくい理由は、命名体系が1つではないから。<br><br>系統名（研究用）：Pango系統名<br>一般向け呼称：WHOのギリシャ文字<br><br>が併存している。</p>&mdash; 岡田龍太郎／クーロン (@suck_a_sage) <a href="https://twitter.com/suck_a_sage/status/2000075666818216198?ref_src=twsrc%5Etfw">December 14, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
