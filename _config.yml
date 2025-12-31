@@ -1,7 +1,12 @@
 theme: minima
+
 title: "COVID Portal and Notes"
 description: "COVID-19に関する資料の集積と考察"
 
+# ▼ カスタムCSSを読み込む設定
 sass:
   style: compressed
-  
+
+# ▼ minimaのCSSに加える形でcustom.scssを適用
+minima:
+  skin: classic
