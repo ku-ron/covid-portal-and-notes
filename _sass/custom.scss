@@ -1,0 +1,17 @@
+/* tweet用コードフェンス（一般のpreとは分離） */
+pre[data-lang="tweet"],
+pre.language-tweet {
+  white-space: pre-wrap;     /* ←改行保持＋折り返しあり */
+  word-break: break-word;    /* ←URL長い時でも安心 */
+  background: #f7f9fa;
+  border-left: 4px solid #1da1f2;
+  padding: 0.8em 1em;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* もし通常のコードブロックは等幅フォントのまま残したいなら分離 */
+pre:not([data-lang="tweet"]) {
+  white-space: pre;          /* コードは折り返しさせない通常挙動 */
+}
