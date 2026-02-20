@@ -35,3 +35,9 @@ code.language-tweet::before {
   margin-bottom: 8px;
   font-weight: 600;
 }
+
+/* H2タグに下線 */
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
