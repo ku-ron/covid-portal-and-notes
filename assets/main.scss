@@ -1,7 +1,15 @@
 ---
 ---
 
+// 本文のデフォルト文字サイズ（minima既定は16px）
+$base-font-size: 18px;
+
 @import "minima";
+
+/* ヘッダーのページ一覧（ナビゲーション）を非表示 */
+.site-nav {
+  display: none;
+}
 
 /* ツイート引用ブロック用のスタイル */
 pre code.language-tweet {
@@ -40,4 +48,28 @@ code.language-tweet::before {
 h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3em;
+}
+
+/* 引用ブロック：背景付きの箱 */
+blockquote {
+  background-color: #f5f6f7;
+  border-left: 4px solid #c8ccd0;
+  border-radius: 4px;
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+  color: #333;
+  font-size: inherit;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+/* 記事内の画像：枠線と余白で地の文と区切る */
+.post-content img {
+  display: block;
+  margin: 1.5em auto;
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
