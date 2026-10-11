@@ -10,3 +10,11 @@ sass:
 # ▼ minimaのCSSに加える形でcustom.scssを適用
 minima:
   skin: classic
+
+# ▼ サイトに含めないファイル（Jekyll 3では既定値が上書きされるため既定分も記載）
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - preview.sh

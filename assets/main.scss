@@ -3,6 +3,10 @@
 
 // 本文のデフォルト文字サイズ（minima既定は16px）
 $base-font-size: 18px;
+// 日本語フォントを優先
+$base-font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+// 本文の幅（minima既定は800px。1行が長すぎると読みにくいため狭める）
+$content-width: 740px;
 
 @import "minima";
 
@@ -44,10 +48,86 @@ code.language-tweet::before {
   font-weight: 600;
 }
 
-/* H2タグに下線 */
-h2 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.3em;
+/* 記事本文の読みやすさ調整（行間・段落間・見出しの余白） */
+.post-content {
+  line-height: 1.9;
+
+  p, ul, ol, table {
+    margin-bottom: 1.6em;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+
+    > ul, > ol {
+      margin-top: 0.4em;
+      margin-bottom: 0;
+    }
+  }
+
+  h2, h3, h4 {
+    line-height: 1.4;
+    font-weight: 700;
+  }
+
+  /* H2：上に大きく余白を取り、下線で章の区切りにする */
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2.8em;
+    margin-bottom: 1em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid #ddd;
+
+    @include media-query($on-laptop) {
+      font-size: 1.35em;
+    }
+  }
+
+  h3 {
+    font-size: 1.25em;
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+
+    @include media-query($on-laptop) {
+      font-size: 1.15em;
+    }
+  }
+
+  h4 {
+    font-size: 1.05em;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+  }
+
+  /* 本文冒頭の見出しは上余白不要 */
+  > h2:first-child, > h3:first-child {
+    margin-top: 0;
+  }
+
+  /* 引用内の見出しは余白を詰める */
+  blockquote {
+    h2, h3, h4 {
+      margin-top: 0;
+      border-bottom: none;
+    }
+
+    /* 箱の最後の要素の下余白を消す（上の p の余白指定が minima の打ち消しを上書きするため） */
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+}
+
+/* 区切り線：控えめな線と十分な上下余白 */
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2.5em 0;
 }
 
 /* 引用ブロック：背景付きの箱 */
@@ -55,8 +135,8 @@ blockquote {
   background-color: #f5f6f7;
   border-left: 4px solid #c8ccd0;
   border-radius: 4px;
-  padding: 0.8em 1.2em;
-  margin: 1.2em 0;
+  padding: 0.9em 1.2em;
+  margin: 0 0 1.6em;
   color: #333;
   font-size: inherit;
   font-style: normal;
@@ -72,4 +152,15 @@ blockquote {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* 記事タイトルのサイズ（minima既定は本文の約2.6倍で大きすぎるため） */
+.post-title {
+  font-size: 32px;
+  letter-spacing: normal;
+  line-height: 1.3;
+
+  @include media-query($on-laptop) {
+    font-size: 26px;
+  }
 }
