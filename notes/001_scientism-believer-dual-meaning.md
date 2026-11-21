@@ -3,7 +3,7 @@ title: "科学教の信者であるということの２つの意味"
 layout: post
 ---
 
-この記事はCluadeとChatGPTの協力のもとで執筆しました。
+この記事はClaudeとChatGPTの協力のもとで執筆しました。
 
 ## はじめに
 
@@ -45,7 +45,21 @@ layout: post
 
 こうした精神において、科学における誠実さは単なる職業倫理ではありませんでした。むしろ、真理を歪めたり嘘をついたりすることは、神の秩序に対する冒涜であり、信仰そのものを裏切る行為と捉えられていたのです。それはつまり自身の内面からくる衝動として、科学の領域において嘘をつきたくないと思っていた、ということになるでしょう。
 
-リチャード・ファインマンも「自分自身をだましてはいけない。自分は最もだましやすい相手なのだから」と述べ、科学者が厳しく自己を省みながら真実に向き合う必要を強調しました。アインシュタインもまた、宇宙の法則に対する驚きや敬意をしばしば語り、それを「宗教的感情」と呼ぶこともありました。(ちなみにこの節についてはClaudeに提案してもらったもので、著者は全然知りませんでした)
+リチャード・ファインマンは、1974年のカリフォルニア工科大学の卒業式講演「カーゴ・カルト・サイエンス」で、科学者が厳しく自己を省みながら真実に向き合う必要を、次のように述べています。
+
+> The first principle is that you must not fool yourself—and you are the easiest person to fool.
+>
+> （第一の原則は、自分自身をだましてはいけないということだ。そして自分は最もだましやすい相手なのだ。）
+
+（講演全文：[Caltech図書館](https://calteches.library.caltech.edu/51/2/CargoCult.htm)。初出はCaltechの雑誌『Engineering and Science』1974年6月号）
+
+アインシュタインもまた、1930年の論考「宗教と科学」で、宇宙の秩序に対する畏敬を「宇宙的宗教感情」と呼び、次のように書いています。
+
+> I maintain that the cosmic religious feeling is the strongest and noblest motive for scientific research.
+>
+> （宇宙的宗教感情こそが、科学研究の最も強く、最も高貴な動機であると私は考える。）
+
+（初出は New York Times Magazine 1930年11月9日号。のちに『Ideas and Opinions』〈1954年〉に再録：[再録版のPDF](https://sites.pitt.edu/~jdnorton/teaching/Einstein_graduate/pdfs/Einstein_About_Religion.pdf)）
 
 真理に対するこのような深い畏敬の念こそが、実は科学の源泉なのではないか、というのが、この記事で一番伝えたかったことになります。
 

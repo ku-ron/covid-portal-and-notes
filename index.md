@@ -4,14 +4,15 @@ title: "COVID Portal and Notes"
 
 # COVID19に関するポータル
 
-準備中。公開テスト用ページです。
+新型コロナウイルスとワクチンをめぐる公式資料、研究、公的な説明を、一次資料に当たりながら検討するノートです。ワクチンの是非そのものよりも、根拠の示し方や説明の仕方を主に扱っています。
 
+資料の読解や構成にはAI（Claude、ChatGPT）を使っていますが、主張と内容の確認は筆者が行っています。誤りのご指摘を歓迎します（連絡先：[X @suck_a_sage](https://x.com/suck_a_sage)）。
+
+<!--
 ## 資料・データ
 
 ## 医学・生物学基礎
-
-## ニュースとまとめ
-- [気になったツイート](./news/tweets.md)
+-->
 
 ## 考察・解説記事
 - 解説
@@ -21,6 +22,7 @@ title: "COVID Portal and Notes"
     - [誤りを訂正する者だけが、標準であり続けられる——「言った人は責任を取らない」から考える、医療の標準と責任](./notes/006_only-those-who-correct-remain-standard.md)
 - エッセイ
     - [科学教の信者であるということの２つの意味](./notes/001_scientism-believer-dual-meaning.md)
-- 未整理
-    - [未整理ツイート](./notes/003_unorganized-tweets.md)
-    
+
+## 未整理
+- [気になったツイート](./news/tweets.md)
+- [未整理ツイート](./notes/003_unorganized-tweets.md)
